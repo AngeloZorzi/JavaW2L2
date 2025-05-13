@@ -1,6 +1,8 @@
 package Esercizio1;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -12,7 +14,7 @@ public class Esercizio1 {
         scanner.nextLine();
 
         HashSet<String> ExclusiveWords = new HashSet<>();
-        HashSet<String> DupWords = new HashSet<>();
+        List<String> DupWords = new ArrayList<>();
         for (int i = 0; i < N; i++) {
             System.out.println("Inserisci la parola: ->");
             String word = scanner.nextLine();
